@@ -64,12 +64,15 @@ class BeerCabinetWithdrawal:
         self.counter += len(self.H) # add to the counter whatever is in your hands
         self.LD = self.BC[idx] # note whatever you drank
         new_BC = np.delete(self.BC, idx) # and throw away the bottle (into recycling <3)
-        self.run_data.append((new_BC, self.H, self.LD, self.counter))
+
+        # reference errors?
+        h_copy = np.copy(self.H)
+        self.run_data.append((new_BC, h_copy, self.LD, self.counter))
         return new_BC
     
     def run(self) -> int:
         # individual run
-        while len(self.BC) >= 1:
+        while len(self.BC) > 0:
             if self.debug:
                 print_h = [int(x) for x in self.H]
                 print(f"self.BC: {self.BC}")
@@ -111,10 +114,12 @@ def bcw_scaler(N: int, K: int, seed: int, n_iter: int) -> list[int]:
 
 
 def format_line(line: list) -> str:
-    if line[1] == "":
-        return f"BC: {list(line[0])}, , ,"
     __bc_l = [int(x) for x in list(line[0])]
     BC = f"BC: {__bc_l}, "
+    print(line)
+    print(type(line[1]))
+    if isinstance(line[1], str):
+        return f"BC: {__bc_l}, H:, LD:, n_ops: "
     __h_l = [int(x) for x in list(line[1])]
     H = f"H: {__h_l}, "
     LD = f"LD: {int(line[2])}, "
