@@ -1,0 +1,4 @@
+N = 3, K = 5
+[A, A, A, B, B, B, C, C, C, D, D, D, E, E, E]
+[A, A, A, B, B, B, C, C, C, D, D, D, E, E] -> E, A, B, C, D, E (K+1) -> -E
+[A, A, B, B, B, C, C, C, D, D, D, E, E] -> E, A, B, C, D, E, A -> -A
