@@ -1,0 +1,84 @@
+Min solution 0
+BC: [1, 1, 2, 2], H:, LD:, n_ops: 
+BC: [1, 2, 2], H: [1, 2, 1], LD: 1, n_ops: 3
+BC: [1, 2], H: [2, 2], LD: 2, n_ops: 5
+BC: [2], H: [1, 2], LD: 1, n_ops: 7
+BC: [], H: [2], LD: 2, n_ops: 8
+=========================
+Min solution 1
+BC: [1, 1, 2, 2], H:, LD:, n_ops: 
+BC: [1, 1, 2], H: [2, 2], LD: 2, n_ops: 2
+BC: [1, 2], H: [1, 1], LD: 1, n_ops: 4
+BC: [1], H: [2, 1], LD: 2, n_ops: 6
+BC: [], H: [1], LD: 1, n_ops: 7
+=========================
+Min solution 2
+BC: [1, 1, 2, 2], H:, LD:, n_ops: 
+BC: [1, 1, 2], H: [2, 1, 2], LD: 2, n_ops: 3
+BC: [1, 2], H: [1, 1], LD: 1, n_ops: 5
+BC: [1], H: [2, 1], LD: 2, n_ops: 7
+BC: [], H: [1], LD: 1, n_ops: 8
+=========================
+Min solution 3
+BC: [1, 1, 2, 2], H:, LD:, n_ops: 
+BC: [1, 2, 2], H: [1, 1], LD: 1, n_ops: 2
+BC: [1, 2], H: [1, 2, 2], LD: 2, n_ops: 5
+BC: [2], H: [2, 1], LD: 1, n_ops: 7
+BC: [], H: [2], LD: 2, n_ops: 8
+=========================
+Min solution 4
+BC: [1, 1, 2, 2], H:, LD:, n_ops: 
+BC: [1, 2, 2], H: [1, 1], LD: 1, n_ops: 2
+BC: [1, 2], H: [2, 2], LD: 2, n_ops: 4
+BC: [2], H: [2, 1], LD: 1, n_ops: 6
+BC: [], H: [2], LD: 2, n_ops: 7
+=========================
+Min solution 5
+BC: [1, 1, 2, 2], H:, LD:, n_ops: 
+BC: [1, 1, 2], H: [1, 2, 2], LD: 2, n_ops: 3
+BC: [1, 2], H: [1, 1], LD: 1, n_ops: 5
+BC: [1], H: [1, 2], LD: 2, n_ops: 7
+BC: [], H: [1], LD: 1, n_ops: 8
+=========================
+Min solution 6
+BC: [1, 1, 2, 2], H:, LD:, n_ops: 
+BC: [1, 2, 2], H: [1, 1], LD: 1, n_ops: 2
+BC: [1, 2], H: [2, 2], LD: 2, n_ops: 4
+BC: [2], H: [1, 2], LD: 1, n_ops: 6
+BC: [], H: [2], LD: 2, n_ops: 7
+=========================
+Min solution 7
+BC: [1, 1, 2, 2], H:, LD:, n_ops: 
+BC: [1, 1, 2], H: [1, 2, 2], LD: 2, n_ops: 3
+BC: [1, 2], H: [1, 1], LD: 1, n_ops: 5
+BC: [1], H: [2, 1], LD: 2, n_ops: 7
+BC: [], H: [1], LD: 1, n_ops: 8
+=========================
+Min solution 8
+BC: [1, 1, 2, 2], H:, LD:, n_ops: 
+BC: [1, 1, 2], H: [2, 1, 2], LD: 2, n_ops: 3
+BC: [1, 2], H: [1, 1], LD: 1, n_ops: 5
+BC: [1], H: [2, 1], LD: 2, n_ops: 7
+BC: [], H: [1], LD: 1, n_ops: 8
+=========================
+Min solution 9
+BC: [1, 1, 2, 2], H:, LD:, n_ops: 
+BC: [1, 2, 2], H: [1, 2, 1], LD: 1, n_ops: 3
+BC: [1, 2], H: [2, 2], LD: 2, n_ops: 5
+BC: [2], H: [1, 2], LD: 1, n_ops: 7
+BC: [], H: [2], LD: 2, n_ops: 8
+=========================
+Min solution 10
+BC: [1, 1, 2, 2], H:, LD:, n_ops: 
+BC: [1, 2, 2], H: [1, 1], LD: 1, n_ops: 2
+BC: [1, 2], H: [2, 1, 2], LD: 2, n_ops: 5
+BC: [2], H: [2, 1], LD: 1, n_ops: 7
+BC: [], H: [2], LD: 2, n_ops: 8
+=========================
+Min solution 11
+BC: [1, 1, 2, 2], H:, LD:, n_ops: 
+BC: [1, 1, 2], H: [2, 2], LD: 2, n_ops: 2
+BC: [1, 2], H: [1, 1], LD: 1, n_ops: 4
+BC: [1], H: [2, 1], LD: 2, n_ops: 6
+BC: [], H: [1], LD: 1, n_ops: 7
+=========================

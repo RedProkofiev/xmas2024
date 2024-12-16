@@ -1,5 +1,6 @@
 from multiprocessing import Pool, cpu_count
 
+import os
 import sys
 import numpy as np
 import matplotlib.pyplot as plt
@@ -62,6 +63,8 @@ class BeerCabinetWithdrawal:
 
         # you have to actually add all the things to your hands though stupid!!!
         self.counter += len(self.H) # add to the counter whatever is in your hands
+        # if len(self.H) > 1 and self.post_phase:  # edge case
+        #     for i 
         self.LD = self.BC[idx] # note whatever you drank
         new_BC = np.delete(self.BC, idx) # and throw away the bottle (into recycling <3)
 
@@ -116,8 +119,6 @@ def bcw_scaler(N: int, K: int, seed: int, n_iter: int) -> list[int]:
 def format_line(line: list) -> str:
     __bc_l = [int(x) for x in list(line[0])]
     BC = f"BC: {__bc_l}, "
-    print(line)
-    print(type(line[1]))
     if isinstance(line[1], str):
         return f"BC: {__bc_l}, H:, LD:, n_ops: "
     __h_l = [int(x) for x in list(line[1])]
@@ -182,13 +183,17 @@ if __name__ == '__main__':
             mins.append(bcw.min_run)
 
         # nevermind it gets worse
-        with open("maxes.txt", "w+") as f:
+        if not os.path.isdir("maxes"):
+            os.makedirs("maxes")
+        if not os.path.isdir("mins"):
+            os.makedirs("mins")
+        with open(f"maxes/maxes_n_{N}_k_{K}.txt", "w+") as f:
             for idx, max_run in enumerate(maxes):
                 f.write(f"Max solution {idx}\n")
                 for line in max_run:
                     f.write(format_line(line) + "\n")
                 f.write("=========================\n")
-        with open("mins.txt", "w+") as f:
+        with open(f"mins/mins.txt_n_{N}_k_{K}", "w+") as f:
             for idx, min_run in enumerate(mins):
                 f.write(f"Min solution {idx}\n")
                 for line in min_run:
