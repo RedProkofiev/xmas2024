@@ -1,84 +1,84 @@
 Max solution 0
 BC: [1, 1, 2, 2], H:, LD:, n_ops: 
-BC: [1, 2, 2], H: [1, 2, 1], LD: 1, n_ops: 3
+BC: [1, 2, 2], H: [2, 1, 1], LD: 1, n_ops: 3
 BC: [1, 2], H: [2, 1, 2], LD: 2, n_ops: 6
-BC: [2], H: [1, 2], LD: 1, n_ops: 8
-BC: [], H: [2], LD: 2, n_ops: 9
+BC: [1], H: [], LD: 2, n_ops: 7
+BC: [], H: [], LD: 1, n_ops: 8
 =========================
 Max solution 1
 BC: [1, 1, 2, 2], H:, LD:, n_ops: 
 BC: [1, 2, 2], H: [1, 2, 1], LD: 1, n_ops: 3
-BC: [1, 2], H: [2, 1, 2], LD: 2, n_ops: 6
-BC: [2], H: [2, 1], LD: 1, n_ops: 8
-BC: [], H: [2], LD: 2, n_ops: 9
+BC: [1, 2], H: [1, 2, 2], LD: 2, n_ops: 6
+BC: [1], H: [], LD: 2, n_ops: 7
+BC: [], H: [], LD: 1, n_ops: 8
 =========================
 Max solution 2
 BC: [1, 1, 2, 2], H:, LD:, n_ops: 
-BC: [1, 1, 2], H: [1, 2, 2], LD: 2, n_ops: 3
-BC: [1, 2], H: [1, 2, 1], LD: 1, n_ops: 6
-BC: [1], H: [1, 2], LD: 2, n_ops: 8
-BC: [], H: [1], LD: 1, n_ops: 9
+BC: [1, 2, 2], H: [1, 2, 1], LD: 1, n_ops: 3
+BC: [1, 2], H: [1, 2, 2], LD: 2, n_ops: 6
+BC: [2], H: [], LD: 1, n_ops: 7
+BC: [], H: [], LD: 2, n_ops: 8
 =========================
 Max solution 3
 BC: [1, 1, 2, 2], H:, LD:, n_ops: 
 BC: [1, 1, 2], H: [2, 1, 2], LD: 2, n_ops: 3
-BC: [1, 2], H: [1, 2, 1], LD: 1, n_ops: 6
-BC: [1], H: [1, 2], LD: 2, n_ops: 8
-BC: [], H: [1], LD: 1, n_ops: 9
+BC: [1, 2], H: [2, 1, 1], LD: 1, n_ops: 6
+BC: [2], H: [], LD: 1, n_ops: 7
+BC: [], H: [], LD: 2, n_ops: 8
 =========================
 Max solution 4
 BC: [1, 1, 2, 2], H:, LD:, n_ops: 
-BC: [1, 2, 2], H: [2, 1, 1], LD: 1, n_ops: 3
+BC: [1, 2, 2], H: [1, 2, 1], LD: 1, n_ops: 3
 BC: [1, 2], H: [1, 2, 2], LD: 2, n_ops: 6
-BC: [2], H: [2, 1], LD: 1, n_ops: 8
-BC: [], H: [2], LD: 2, n_ops: 9
+BC: [2], H: [], LD: 1, n_ops: 7
+BC: [], H: [], LD: 2, n_ops: 8
 =========================
 Max solution 5
 BC: [1, 1, 2, 2], H:, LD:, n_ops: 
-BC: [1, 2, 2], H: [1, 2, 1], LD: 1, n_ops: 3
-BC: [1, 2], H: [1, 2, 2], LD: 2, n_ops: 6
-BC: [2], H: [2, 1], LD: 1, n_ops: 8
-BC: [], H: [2], LD: 2, n_ops: 9
+BC: [1, 1, 2], H: [1, 2, 2], LD: 2, n_ops: 3
+BC: [1, 2], H: [1, 2, 1], LD: 1, n_ops: 6
+BC: [1], H: [], LD: 2, n_ops: 7
+BC: [], H: [], LD: 1, n_ops: 8
 =========================
 Max solution 6
 BC: [1, 1, 2, 2], H:, LD:, n_ops: 
-BC: [1, 1, 2], H: [2, 1, 2], LD: 2, n_ops: 3
+BC: [1, 1, 2], H: [1, 2, 2], LD: 2, n_ops: 3
 BC: [1, 2], H: [1, 2, 1], LD: 1, n_ops: 6
-BC: [1], H: [1, 2], LD: 2, n_ops: 8
-BC: [], H: [1], LD: 1, n_ops: 9
+BC: [1], H: [], LD: 2, n_ops: 7
+BC: [], H: [], LD: 1, n_ops: 8
 =========================
 Max solution 7
 BC: [1, 1, 2, 2], H:, LD:, n_ops: 
-BC: [1, 1, 2], H: [1, 2, 2], LD: 2, n_ops: 3
-BC: [1, 2], H: [2, 1, 1], LD: 1, n_ops: 6
-BC: [1], H: [2, 1], LD: 2, n_ops: 8
-BC: [], H: [1], LD: 1, n_ops: 9
+BC: [1, 2, 2], H: [2, 1, 1], LD: 1, n_ops: 3
+BC: [1, 2], H: [1, 2, 2], LD: 2, n_ops: 6
+BC: [2], H: [], LD: 1, n_ops: 7
+BC: [], H: [], LD: 2, n_ops: 8
 =========================
 Max solution 8
 BC: [1, 1, 2, 2], H:, LD:, n_ops: 
-BC: [1, 2, 2], H: [1, 2, 1], LD: 1, n_ops: 3
-BC: [1, 2], H: [2, 1, 2], LD: 2, n_ops: 6
-BC: [2], H: [2, 1], LD: 1, n_ops: 8
-BC: [], H: [2], LD: 2, n_ops: 9
+BC: [1, 1, 2], H: [1, 2, 2], LD: 2, n_ops: 3
+BC: [1, 2], H: [2, 1, 1], LD: 1, n_ops: 6
+BC: [2], H: [], LD: 1, n_ops: 7
+BC: [], H: [], LD: 2, n_ops: 8
 =========================
 Max solution 9
 BC: [1, 1, 2, 2], H:, LD:, n_ops: 
-BC: [1, 2, 2], H: [1, 2, 1], LD: 1, n_ops: 3
-BC: [1, 2], H: [1, 2, 2], LD: 2, n_ops: 6
-BC: [2], H: [2, 1], LD: 1, n_ops: 8
-BC: [], H: [2], LD: 2, n_ops: 9
+BC: [1, 1, 2], H: [1, 2, 2], LD: 2, n_ops: 3
+BC: [1, 2], H: [2, 1, 1], LD: 1, n_ops: 6
+BC: [2], H: [], LD: 1, n_ops: 7
+BC: [], H: [], LD: 2, n_ops: 8
 =========================
 Max solution 10
 BC: [1, 1, 2, 2], H:, LD:, n_ops: 
-BC: [1, 1, 2], H: [1, 2, 2], LD: 2, n_ops: 3
-BC: [1, 2], H: [1, 2, 1], LD: 1, n_ops: 6
-BC: [1], H: [2, 1], LD: 2, n_ops: 8
-BC: [], H: [1], LD: 1, n_ops: 9
+BC: [1, 2, 2], H: [1, 2, 1], LD: 1, n_ops: 3
+BC: [1, 2], H: [1, 2, 2], LD: 2, n_ops: 6
+BC: [1], H: [], LD: 2, n_ops: 7
+BC: [], H: [], LD: 1, n_ops: 8
 =========================
 Max solution 11
 BC: [1, 1, 2, 2], H:, LD:, n_ops: 
-BC: [1, 1, 2], H: [1, 2, 2], LD: 2, n_ops: 3
-BC: [1, 2], H: [2, 1, 1], LD: 1, n_ops: 6
-BC: [1], H: [2, 1], LD: 2, n_ops: 8
-BC: [], H: [1], LD: 1, n_ops: 9
+BC: [1, 2, 2], H: [1, 2, 1], LD: 1, n_ops: 3
+BC: [1, 2], H: [1, 2, 2], LD: 2, n_ops: 6
+BC: [2], H: [], LD: 1, n_ops: 7
+BC: [], H: [], LD: 2, n_ops: 8
 =========================
